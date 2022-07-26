@@ -8,3 +8,6 @@ print(stops)
 
 stops.insert(4, "Polmont")
 print(stops)
+
+index = stops.index("Linlithgow")
+print(index)
