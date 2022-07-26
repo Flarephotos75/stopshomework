@@ -14,3 +14,6 @@ print(index)
 
 stops.remove('Livingston')
 print(stops)
+
+del stops[2]
+print(stops)
