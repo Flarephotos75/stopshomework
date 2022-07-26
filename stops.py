@@ -20,3 +20,5 @@ print(stops)
 
 number_of_stops = len(stops)
 print(number_of_stops)
+
+print(sorted(stops))
