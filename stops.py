@@ -1,27 +1,31 @@
 stops = [ "Croy", "Cumbernauld", "Falkirk High", "Linlithgow", "Livingston", "Haymarket" ]
 
-stops.append("Edinburgh Waverley")
-print(stops)
+for s in stops:
+    print(s)
+    
 
-stops.insert(0, "Glasgow Queen St")
-print(stops)
+# stops.append("Edinburgh Waverley")
+# print(stops)
 
-stops.insert(4, "Polmont")
-print(stops)
+# stops.insert(0, "Glasgow Queen St")
+# print(stops)
 
-index = stops.index("Linlithgow")
-print(index)
+# stops.insert(4, "Polmont")
+# print(stops)
 
-stops.remove('Livingston')
-print(stops)
+# index = stops.index("Linlithgow")
+# print(index)
 
-del stops[2]
-print(stops)
+# stops.remove('Livingston')
+# print(stops)
 
-number_of_stops = len(stops)
-print(number_of_stops)
+# del stops[2]
+# print(stops)
 
-print(sorted(stops))
+# number_of_stops = len(stops)
+# print(number_of_stops)
 
-stops.reverse()
-print(stops)
+# print(sorted(stops))
+
+# stops.reverse()
+# print(stops)
