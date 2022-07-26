@@ -11,3 +11,6 @@ print(stops)
 
 index = stops.index("Linlithgow")
 print(index)
+
+stops.remove('Livingston')
+print(stops)
