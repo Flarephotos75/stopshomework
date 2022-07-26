@@ -5,3 +5,6 @@ print(stops)
 
 stops.insert(0, "Glasgow Queen St")
 print(stops)
+
+stops.insert(4, "Polmont")
+print(stops)
