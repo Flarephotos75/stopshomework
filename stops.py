@@ -22,3 +22,6 @@ number_of_stops = len(stops)
 print(number_of_stops)
 
 print(sorted(stops))
+
+stops.reverse()
+print(stops)
