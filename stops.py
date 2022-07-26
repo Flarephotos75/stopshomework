@@ -17,3 +17,6 @@ print(stops)
 
 del stops[2]
 print(stops)
+
+number_of_stops = len(stops)
+print(number_of_stops)
